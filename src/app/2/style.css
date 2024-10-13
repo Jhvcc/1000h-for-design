@@ -1,0 +1,33 @@
+main {
+  --initial-color: hsl(240 5% 10%);
+  --hover-color: hsl(240 5% 50%);
+}
+.tab {
+  color: var(--initial-color);
+  cursor: pointer;
+  transition: color ease-in-out 250ms;
+}
+
+.icon {
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: visibility 0s, opacity 0.3s transform 0.3s;
+}
+
+.table-container:hover .tab {
+  color: var(--hover-color);
+}
+
+.tab:hover {
+  color: var(--initial-color) !important;
+}
+
+.tab:hover ~ .icon {
+  visibility: visible !important;
+  opacity: 1 !important;
+  transform: translateY(0);
+  transition: visibility 0s, opacity 0.3s, transform 0.2s ease-in;
+}
+
+

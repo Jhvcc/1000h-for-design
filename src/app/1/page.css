@@ -1,0 +1,8 @@
+
+.tooltip-target:has(+ .tooltip:target) {
+  @apply text-red-700;
+}
+
+.tooltip:target {
+  @apply opacity-100 visible translate-y-0;
+}

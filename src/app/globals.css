@@ -6,4 +6,5 @@
   font-size: 1.25rem;
   line-height: 1.65;
   color: hsl(0deg 1% 26%);
+  min-width: 600px;
 }
