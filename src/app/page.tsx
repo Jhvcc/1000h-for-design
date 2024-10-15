@@ -7,6 +7,8 @@ export default function Home() {
           <Link href="/1" className="block px-6 py-4 rounded-md bg-rose-100 font-medium transition duration-300 ease-in-out hover:bg-rose-200 hover:scale-110">Day 1</Link>
 
           <Link href="/2" className="block px-6 py-4 rounded-md bg-rose-100 font-medium transition duration-300 ease-in-out hover:bg-rose-200 hover:scale-110">Day 2</Link>
+
+          <Link href="/3" className="block px-6 py-4 rounded-md bg-rose-100 font-medium transition duration-300 ease-in-out hover:bg-rose-200 hover:scale-110">Day 3</Link>
       </div>
     </main>
   );
